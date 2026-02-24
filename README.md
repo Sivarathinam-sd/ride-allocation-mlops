@@ -3,6 +3,14 @@ End-to-end ML system to predict ride allocation reward using Machine Learning.
 
 
 ## Overview
+
+![Gradio](https://img.shields.io/badge/gradio-6.6.0-blue)
+![Matplotlib](https://img.shields.io/badge/matplotlib-3.10.8-orange)
+![NumPy](https://img.shields.io/badge/numpy-2.4.2-yellow)
+![Pandas](https://img.shields.io/badge/pandas-3.0.1-lightblue)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-latest-brightgreen)
+![Seaborn](https://img.shields.io/badge/seaborn-0.13.2-purple)
+
 This project builds an end-to-end machine learning system to predict ride allocation reward in a simulated ride-sharing environment. The dataset captures dispatch decisions, including driver locations, ride request details, surge multipliers, cancellation probabilities, and revenue-related features. The objective is to model how operational factors influence the final reward earned by the platform.
 
 <center>
@@ -10,7 +18,7 @@ This project builds an end-to-end machine learning system to predict ride alloca
 </center>
 
 
-The project demonstrates practical machine learning modeling fropm analysis to deployment using modern simple MLOps practices.
+The project demonstrates practical machine learning modeling from analysis to deployment using modern simple MLOps practices.
 
 ## Dataset - [Link](https://www.kaggle.com/datasets/dhrubangtalukdar/ride-allocation-dataset/data)
 
@@ -95,7 +103,7 @@ uv sync
 # Run the application
 uv run python app.py
 ```
-## Dockerization
+## Dockerization - [Link](https://hub.docker.com/r/sivarathinamsd/ride-ml-app)
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/sivarathinamsd/ride-ml-app)
 ![Docker Image Size](https://img.shields.io/docker/image-size/sivarathinamsd/ride-ml-app)
