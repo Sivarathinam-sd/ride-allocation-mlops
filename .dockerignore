@@ -1,0 +1,28 @@
+# Virtual environments
+.venv
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebooks
+notebooks
+
+# Git
+.git
+.gitignore
+.github
+
+# Project metadata
+README.md
+LICENSE
+pyproject.toml
+uv.lock
+.python-version
+
+# OS files
+.DS_Store
+Thumbs.db
+
